@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Flasc",
+    "icon": "./assets/iconeApp1024px.png",
+    "userInterfaceStyle": "automatic",
+    "slug": "Flasc",
+    "platforms": ["ios", "android"],
+    "version": "0.9.2",
+    "orientation": "portrait",
+    "androidStatusBar": {
+      "translucent": true
+    },
+    "splash": {
+      "image": "./assets/Story.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#FFFFFF"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "bundleIdentifier": "com.flasc.app",
+      "buildNumber": "1"
+    },
+    "android": {
+      "package": "com.flasc.app",
+      "useNextNotificationsApi": true,
+      "versionCode": 1
+    },
+    "experiments": { "redesignedLogBox": true }
+  }
+}

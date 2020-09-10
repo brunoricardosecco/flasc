@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "447069913286",
+    "firebase_url": "https://proevento-app.firebaseio.com",
+    "project_id": "proevento-app",
+    "storage_bucket": "proevento-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:447069913286:android:ada1a2d9a770c9f3c517c7",
+        "android_client_info": {
+          "package_name": "com.proevento.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "447069913286-7ukt6e6c0fo3m90d065skghqpd6qnmnd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPWcb3sbXZK1LNPkrQprsj1ZLK7YSrAqM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "447069913286-7ukt6e6c0fo3m90d065skghqpd6qnmnd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

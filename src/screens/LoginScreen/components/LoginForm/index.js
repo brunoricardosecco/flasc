@@ -14,7 +14,10 @@ import ButtonFill from "../../../../components/ButtonFill";
 
 const schema = yup.object().shape({
   email: yup.string().required("E-mail é obrigatório").email("E-mail inválido"),
-  password: yup.string().required("Código de inscrição é obrigatório"),
+  password: yup
+    .string()
+    .required("Código de inscrição é obrigatório")
+    .min(3, "Minimo 3 caracteres"),
 });
 export default function LoginForm() {
   //reducers

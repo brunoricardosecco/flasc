@@ -8,6 +8,7 @@ import LoginScreen from "../screens/LoginScreen";
 import RegisterScreen from "../screens/RegisterScreen";
 import ForgotPasswordScreen from "../screens/ForgotPasswordScreen";
 import HomeStack from "./HomeStack";
+import BottomTab from "./BottomTab";
 
 import RouteContext from "../context/routes";
 
@@ -77,7 +78,7 @@ export default function Routes() {
         <Stack.Navigator>
           <Stack.Screen
             name="Home"
-            component={HomeStack}
+            component={BottomTab}
             options={{ headerShown: false }}
           />
         </Stack.Navigator>

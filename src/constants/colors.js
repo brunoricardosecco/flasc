@@ -9,5 +9,6 @@ export default {
   secundary: "#FFBB00",
 
   green: "#20CB65",
-  blue: "#0E9CFB"
+  blue: "#0E9CFB",
+  dist1: "#fff",
 };

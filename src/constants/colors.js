@@ -12,4 +12,6 @@ export default {
   blue: "#0E9CFB",
   dist3: "#fff",
   cli8: "000",
+  dist1: "#fff",
+  cli2: "#000",
 };

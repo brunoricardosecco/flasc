@@ -6,11 +6,24 @@ import {
 } from "react-native-responsive-screen";
 
 const styles = StyleSheet.create({
-  header: {
-    paddingTop: 20,
+  container: {
+    flex: 1,
+    backgroundColor: colors.primary,
+    justifyContent: "center",
+    alignItems: "center",
+  },
+  textContainer: {
     backgroundColor: colors.white,
-    flexDirection: "row",
-    justifyContent: "space-between"
+    justifyContent: "center",
+    alignItems: "center",
+    borderRadius: 6,
+    width: wp(90),
+    height: wp(90),
+  },
+  text: {
+    fontSize: wp(9),
+    fontWeight: "bold",
+    textAlign: "center",
   },
 });
 
